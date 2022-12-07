@@ -9,7 +9,7 @@ import random
 from clientes.models import Cliente
 
 def criando_pessoas(quantidade_de_pessoas):
-    fake = Faker('pt_BR')
+    fake = Faker('pt_PT')
     Faker.seed(10)
     for _ in range(quantidade_de_pessoas):
         cpf = CPF()
